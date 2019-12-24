@@ -20,6 +20,7 @@ end
 
 def run_guessing_game
   guess = capture_guess
+  number = num = rand(6) + 1
   if guess == "exit"
     puts "Goodbye!"
   elsif correct_guess?(guess)
