@@ -20,7 +20,6 @@ def correct_guess?(guess)
 end
 
 def run_guessing_game
-  binding.pry
   guess = capture_guess
   if guess == "exit"
     puts "Goodbye!"
