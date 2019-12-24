@@ -21,8 +21,8 @@ end
 
 def run_guessing_game
   binding.pry
-  capture_guess
-  if capture_guess == "exit"
+  guess = capture_guess
+  if guess == "exit"
     puts "Goodbye!"
   elsif correct_guess?
     puts "You guessed the correct number!"
