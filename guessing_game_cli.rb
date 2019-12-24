@@ -3,8 +3,10 @@ def generate_random_number
   num = rand(6) + 1
 end
 
+num = generate_random_number
+
 def capture_guess
-  
+  guess = gets.chomp
 end
 
 def compare_numbers
