@@ -1,3 +1,4 @@
+require 'pry'
 # Code your solution here!
 def generate_random_number
   num = rand(6) + 1
@@ -27,4 +28,5 @@ def run_guessing_game
   else
     puts "Sorry! The computer guessed #{number}."
   end
+  binding.pry
 end
