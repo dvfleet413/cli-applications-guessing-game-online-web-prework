@@ -26,7 +26,7 @@ def run_guessing_game
   elsif correct_guess?(guess)
     puts "You guessed the correct number!"
   else
-    puts "Sorry! The computer guessed #{number}."
+    puts "Sorry! The computer guessed #{$number}."
   end
 
 end
