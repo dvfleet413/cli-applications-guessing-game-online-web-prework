@@ -4,7 +4,7 @@ def generate_random_number
   num = rand(6) + 1
 end
 
-number = generate_random_number
+$number = generate_random_number
 
 def capture_guess
   puts "Guess a number between 1 and 6:"
@@ -12,8 +12,7 @@ def capture_guess
 end
 
 def correct_guess?(guess)
-
-  if guess == number
+  if guess == $number
     return true 
   else
     return false 
