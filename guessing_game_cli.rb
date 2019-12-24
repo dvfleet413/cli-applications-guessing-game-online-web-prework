@@ -4,13 +4,15 @@ def generate_random_number
   num = rand(6) + 1
 end
 
+number = generate_random_number
+
 def capture_guess
   puts "Guess a number between 1 and 6:"
   guess = gets.chomp
 end
 
 def correct_guess?(guess)
-  number = generate_random_number
+
   if guess == number
     return true 
   else
