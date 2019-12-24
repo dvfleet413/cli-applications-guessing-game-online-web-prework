@@ -12,7 +12,6 @@ def capture_guess
 end
 
 def correct_guess?(guess)
-  binding.pry
   if guess.to_i == $number
     return true 
   else
