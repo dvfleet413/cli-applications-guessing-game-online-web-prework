@@ -1,7 +1,7 @@
 require 'pry'
 # Code your solution here!
 def generate_random_number
-  num = rand(6) + 1
+  num = rand(1..6)
 end
 
 $number = generate_random_number
